@@ -70,7 +70,7 @@
     &:visited {
         text-decoration: none;
         display: inline-block;
-        color: $color-primary;
+        color: $color-primary-dark;
         border-bottom: .1rem solid $color-primary;
         padding: .3rem;
         font-size: $default-font-size;
@@ -78,7 +78,7 @@
     }
 
     &:hover {
-        background-color: $color-primary;
+        background-color: $color-primary-dark;
         color: $color-white;
         box-shadow: 0 1rem 2rem rgba($color: $color-black, $alpha: .15);
         transform: translateY(-.2rem);
