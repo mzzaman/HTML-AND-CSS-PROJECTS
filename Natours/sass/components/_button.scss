@@ -1,5 +1,6 @@
 .btn {
 
+    &,
     &:link,
     &:visited {
         text-decoration: none;
@@ -13,6 +14,12 @@
         animation: moveInDown .5s ease-out .75s;
         animation-fill-mode: backwards;
         position: relative;
+
+
+        //change for the <button> element;
+        border: none;
+        cursor: pointer;
+
     }
 
     &:hover {
